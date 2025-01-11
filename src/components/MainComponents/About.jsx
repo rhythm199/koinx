@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
 import calpic from '../../assets/calpic.png'
 
 const About = () => {
@@ -59,7 +58,7 @@ const About = () => {
           </div>
           <div className="flex flex-col lg:flex-row border-b-2 border-[#C9CFDD]/40 pb-2">
             <div className="mt-4">
-              <img src={calpic} alt='photo' className='pb-2' />
+              <img src={calpic} alt='calpic' className='pb-2' />
             </div>
           </div>
         </div>

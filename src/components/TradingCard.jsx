@@ -33,7 +33,7 @@ const TradingViewWidget = () => {
     container.current.appendChild(script);
 
     return () => {
-      if (container.current && script.parentNode) {
+      if (container.current && script.parentNode) { // eslint-disable-next-line react-hooks/exhaustive-deps
         container.current.removeChild(script);
       }
     };
